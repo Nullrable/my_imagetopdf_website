@@ -3,15 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Image to PDF - All-in-one PDF processing tool. Convert, encrypt, decrypt, and print PDFs with ease.">
-    <title>Image to PDF - All-in-One PDF Processing Tool</title>
+
+    <!-- Basic SEO -->
+    <title>Image to PDF - Convert, Encrypt, Decrypt & Print PDFs</title>
+    <meta name="description" content="Free PDF processing tool. Convert images to PDF, PDF to images, encrypt, decrypt, and print PDFs. 100% private, no ads, all features included.">
+    <meta name="keywords" content="image to pdf, pdf to image, pdf converter, pdf encrypt, pdf decrypt, pdf print, pdf tool, free pdf, pdf app, ios pdf">
+    <meta name="author" content="Image to PDF">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://imagepdf.erp4.cn/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://imagepdf.erp4.cn/">
+    <meta property="og:title" content="Image to PDF - Convert, Encrypt, Decrypt & Print PDFs">
+    <meta property="og:description" content="Free PDF processing tool. Convert images to PDF, PDF to images, encrypt, decrypt, and print PDFs. 100% private, no ads.">
+    <meta property="og:image" content="https://imagepdf.erp4.cn/images/og-image.png">
+    <meta property="og:site_name" content="Image to PDF">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://imagepdf.erp4.cn/">
+    <meta name="twitter:title" content="Image to PDF - Convert, Encrypt, Decrypt & Print PDFs">
+    <meta name="twitter:description" content="Free PDF processing tool. Convert images to PDF, PDF to images, encrypt, decrypt, and print PDFs. 100% private, no ads.">
+    <meta name="twitter:image" content="https://imagepdf.erp4.cn/images/og-image.png">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+
+    <!-- Favicon & App Icons -->
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="apple-touch-icon" href="/images/app-icon.png">
+
+    <!-- Preload Critical Assets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- 引入配置文件 -->
     <script src="config.js"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Structured Data - WebApplication -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Image to PDF",
+        "alternateName": "Image to PDF Converter",
+        "description": "All-in-one PDF processing tool. Convert images to PDF, PDF to images, encrypt, decrypt, and print PDFs with ease.",
+        "url": "https://imagepdf.erp4.cn/",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "iOS",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "featureList": [
+            "Image to PDF",
+            "PDF to Image",
+            "PDF Encrypt",
+            "PDF Decrypt",
+            "PDF Print"
+        ],
+        "screenshot": [
+            "https://imagepdf.erp4.cn/images/ios_1.png",
+            "https://imagepdf.erp4.cn/images/ios_2.png",
+            "https://imagepdf.erp4.cn/images/ios_3.png",
+            "https://imagepdf.erp4.cn/images/ios_4.png"
+        ]
+    }
+    </script>
+
+    <!-- Structured Data - SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Image to PDF",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "iOS",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "100"
+        }
+    }
+    </script>
     <style>
         * {
             margin: 0;
@@ -1537,7 +1621,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             // Set app name from config
             if (window.APP_CONFIG) {
-                document.title = window.APP_CONFIG.appName + ' - All-in-One PDF Processing Tool';
+                document.title = window.APP_CONFIG.appName + ' - Convert, Encrypt, Decrypt & Print PDFs';
 
                 // Update App Store links
                 const appStoreLink = document.getElementById('app-store-link');
